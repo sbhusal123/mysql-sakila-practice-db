@@ -54,10 +54,8 @@
 
 - What is the average running time of films by category?
 
-- Why does this query return the empty set?
-
 **Stored Procedure:**
-- Create the store procedure to find film in stoks provided film id and store id.
+- Create a basic stored procedure to display the first_name of the actor, provided actor_id.
 
 **References:**
 
