@@ -125,7 +125,7 @@ mysql> GRANT ALL PRIVILEGES ON *.* TO '<USER>'@'%';
 
 
 -- provide access to specific database;
-mysql> GRANT ALL PRIVILEGES ON *.* TO '<USER>'@'%';
+mysql> GRANT ALL PRIVILEGES ON <DB>.* TO '<USER>'@'%';
 
 --update privilates
 mysql> FLUSH PRIVILEGES;
