@@ -92,9 +92,16 @@ from
      join rental using (inventory_id)
 where film.title = 'Academy Dinosaur'
       and store.store_id = 1
-      and not exists (select * from rental
-                      where rental.inventory_id = inventory.inventory_id
-                      and rental.return_date is null);
+      and not exists (
+                         select 
+                              * 
+                         from 
+                              rental
+                         where 
+                              rental.inventory_id = inventory.inventory_id
+                         and 
+                              rental.return_date is null
+                      );
 ```
 
 **8. Insert a record to represent Mary Smith renting 'Academy Dinosaur' from Mike Hillyer at Store 1 today .**
