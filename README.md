@@ -1,14 +1,14 @@
 # MySQL Queries with Sakila Test Databass:
 
 
-## i. DB ER diagram:
+## 1. DB ER diagram:
 
 ![Sakila ER](./sakila_erd.png)
 
 
 
 
-## ii. Setting Up Schema and Populate Database:
+## 2. Setting Up Schema and Populate Database:
 
 - **i. Setting UP schemas and Database:**
 
@@ -28,7 +28,7 @@
 
 
 
-## Practice Questions:
+## 3. Practice Questions:
 
 **Basics:**
 
@@ -57,7 +57,7 @@
 **Stored Procedure:**
 - Create a basic stored procedure to display the first_name of the actor, provided actor_id.
 
-**References:**
+## 4. Command Reference
 
 - **1. Install the MySQL Server and complete the secure installation process as:**
 
